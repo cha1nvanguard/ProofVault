@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProofVault</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🧾 ProofVault</h1>
+  <p>Store and verify document hashes on Ethereum</p>
+
+  <input type="file" id="fileInput" />
+  <button onclick="storeProof()">Store Proof</button>
+  <button onclick="verifyProof()">Verify Proof</button>
+
+  <div id="result"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
