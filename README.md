@@ -50,3 +50,7 @@ Just open `frontend/index.html` in your browser with MetaMask enabled.
 
 ## 📄 License
 MIT License
+
+Created by
+
+[@cha1nvanguard](https://github.com/cha1nvanguard/)
